@@ -80,7 +80,7 @@ st.set_page_config(
 
 
 st.title("ATS Resume Evaluator")
-st.text("Improve your resume ATS")
+st.text("Improve your resume ATS score")
 jd=st.text_area("Paste the Job Description here")
 uploaded_file = st.file_uploader("Upload your resume (PDF)...", type=["pdf"], help="Upload your resume in PDF format for evaluation")
 submit = st.button("Evaluate Resume")
