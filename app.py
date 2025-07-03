@@ -71,6 +71,14 @@ DO NOT return markdown, formatting, or extra text. Only the JSON string as speci
 """
 
 # Streamlit app
+st.set_page_config(
+    page_title="ATS Resume Evaluator",    
+    page_icon="favicon.png",                         
+    layout="centered",                   
+    initial_sidebar_state="auto"
+)
+
+
 st.title("ATS Resume Evaluator")
 st.text("Improve your resume ATS")
 jd=st.text_area("Paste the Job Description here")
